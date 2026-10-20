@@ -245,7 +245,9 @@
   touch-action: none;
 }
 
-.platter-best-sellers__scroll-thumb {
+/* Dawn hides empty divs; the scrollbar thumb is intentionally empty. */
+.platter-best-sellers .platter-best-sellers__scroll-thumb {
+  display: block;
   position: absolute;
   top: 0;
   left: 0;
