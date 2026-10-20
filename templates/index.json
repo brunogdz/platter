@@ -58,6 +58,18 @@
         "show_text_below": true
       }
     },
+    "platter_best_sellers": {
+      "type": "platter-best-sellers",
+      "settings": {
+        "heading": "Best Sellers",
+        "link_text": "Shop All Best Sellers",
+        "link_url": "shopify://collections/all",
+        "products": [],
+        "demo_mode": true,
+        "show_more_label": "Show More",
+        "show_less_label": "Show Less"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -166,6 +178,7 @@
   },
   "order": [
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
+    "platter_best_sellers",
     "featured_collection",
     "f1552b18-6017-4231-810d-74e61da22c37",
     "38cdf60f-e431-43b5-aac3-7e6215447d67"
