@@ -1,0 +1,12 @@
+{
+  "name": "platter-best-sellers-preview",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static vanilla HTML, Tailwind CSS and JavaScript best sellers preview.",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./assets/styles.css --content ./index.html ./assets/main.js"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
